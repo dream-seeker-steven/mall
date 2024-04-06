@@ -4,25 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.cn.mall</groupId>
-        <artifactId>mall</artifactId>
+        <groupId>com.cn.mall.common</groupId>
+        <artifactId>common-center</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.cn.mall.common</groupId>
-    <artifactId>common-center</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>common-core</module>
-        <module>common-datasource</module>
-        <module>common-cache</module>
-        <module>common-crypto</module>
-        <module>common-poi</module>
-        <module>common-jwt</module>
-        <module>common-http</module>
-        <module>common-json</module>
-        <module>common-log</module>
-    </modules>
+    <groupId>com.cn.mall.common.jwt</groupId>
+    <artifactId>common-jwt</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
